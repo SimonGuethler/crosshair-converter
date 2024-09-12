@@ -1,0 +1,8 @@
+{
+  "name": "CS2 Crosshair Converter",
+  "short_name": "CrosshairConverter",
+  "theme_color": "#22c55e",
+  "background_color": "#181818",
+  "display": "standalone",
+  "start_url": "/"
+}
