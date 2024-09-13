@@ -5,6 +5,16 @@
       Converts a CS2/CSGO crosshair share code/hash <br />
       into crosshair cl_crosshair... code.
     </h2>
+    <Button
+      as="a"
+      class="link"
+      label="Source Code"
+      link
+      href="https://github.com/SimonGuethler/crosshair-converter"
+      target="_blank"
+      rel="noopener"
+      ><i class="pi pi-github"></i> Source Code
+    </Button>
 
     <div class="inputcode" style="margin-bottom: 1rem; margin-top: 0.5rem">
       <FloatLabel>
@@ -19,13 +29,13 @@
     <!--    </label>-->
     <Textarea
       id="outputcode"
-      style="margin-bottom: 1.5rem"
+      style="margin-bottom: 1rem"
       rows="21"
       cols="50"
       readonly
       :value="outputCode"
     />
-    <Button style="margin-bottom: 1.5rem" @click="copyToClipboard">
+    <Button style="margin-bottom: 1rem" @click="copyToClipboard">
       <i class="pi pi-clone"></i> Copy
     </Button>
   </div>
@@ -93,7 +103,7 @@ const copyToClipboard = () => {
 
 h1 {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   margin-bottom: 0;
   font-size: 3rem;
   color: var(--p-primary-color);
@@ -101,7 +111,6 @@ h1 {
 
 h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
   font-size: 1.2rem;
   font-weight: 200;
 }
@@ -113,5 +122,13 @@ h2 {
 
 .inputcode > * {
   margin-inline: 0.75rem;
+}
+
+.link {
+  font-weight: 200;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 0;
+  padding: 0.5rem 0 1rem;
 }
 </style>
