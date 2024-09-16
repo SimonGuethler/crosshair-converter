@@ -1,9 +1,8 @@
 <template>
   <div class="crosshair-converter card flex justify-center">
     <h1>CS2 Crosshair Converter</h1>
-    <h2>
-      Converts a CS2/CSGO crosshair share code/hash <br />
-      into crosshair cl_crosshair... code.
+    <h2 style="max-width: 25rem">
+      Converts a CS2/CSGO crosshair share code/hash into crosshair cl_crosshair... code.
     </h2>
     <Button
       as="a"
